@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
         I18n.locale = cookies[:locale]
       else
         locale = extract_locale_from_accept_language_header
-        langs = ['en', 'es', 'fr', 'gr']
+        langs = ['da', 'en', 'es', 'fr', 'gr']
         if langs.include?(locale)
           I18n.locale = locale
         end
