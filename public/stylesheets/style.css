@@ -43,6 +43,10 @@ body {
 }
 
 #header li {
+  margin: 0 5px;
+}
+
+#header li {
   list-style:none;
   display:inline;
 }
@@ -275,6 +279,10 @@ p.user {
   padding: 20px;
 }
 
+#message_form legend {
+  padding: 10px;
+}
+
 #message_form .field {
   margin-bottom: 10px;
 }
@@ -299,4 +307,13 @@ p.user {
 #flash_error {
   background-color: #630c15;
   color: white;
+}
+
+.field_with_errors input, .field_with_errors textarea {
+  border: 2px solid red;
+}
+
+input[type='submit'] {
+  padding: 5px;
+  margin-top: 30px;
 }

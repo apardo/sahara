@@ -1,8 +1,11 @@
 Sahara::Application.routes.draw do
   
-  get "message/index"
-  post "message/send_message"
-  match "message/activate/:activation_code" => "message#activate"
+
+  match "message" => "message#index"
+  match "message/send" => "message#send_message"
+  match "activate/:activation_code" => "message#activate"
+  match "integrate" => "pages#integrate"
+  match "stats" => "pages#stats"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

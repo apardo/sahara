@@ -1,6 +1,7 @@
 <div id="message_form">
-  <%= form_for @message, :url => { :action => 'send_message' } do |f| %>
+  <%= form_for @message, :url => message_send_path do |f| %>
     <fieldset>
+      <legend><%= t(:fill_the_form) %></legend>
       <div id="message_form_fields">
         <div class="field">
           <%= f.label t(:name) %>:<br />
@@ -18,7 +19,7 @@
         </div>
         <div class="field">
           <%= f.label t(:subject) %>:<br />
-          <%= f.text_field :subject %>
+          <%= f.text_field :subject, :size => 50 %>
           <% if @message.errors[:subject] %>
             <span class="error_message"><%= @message.errors[:subject].to_sentence %></span>
           <% end %>
