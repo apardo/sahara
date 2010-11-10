@@ -37,6 +37,16 @@ body {
 	float:right;
 }
 
+#header ul.right {
+	color:#B9204E;
+  float:right;
+}
+
+#header li {
+  list-style:none;
+  display:inline;
+}
+
 #header h1 a {
 	color:#fff;
 	text-decoration:none;
@@ -257,3 +267,36 @@ p.user {
 	color:#ccc;
 }
 
+#message_form {
+  width: 75%;
+}
+
+#message_form fieldset {
+  padding: 20px;
+}
+
+#message_form .field {
+  margin-bottom: 10px;
+}
+
+.field input[type='text'], .field textarea {
+  margin-top: 4px;
+  padding:5px;
+}
+
+#flash_notice, #flash_error {
+  margin: 10px 0;
+  border: 2px solid black;
+  padding: 10px;
+  width: 75%;
+}
+
+#flash_notice {
+  background-color: #23630c;
+  color: white;
+}
+
+#flash_error {
+  background-color: #630c15;
+  color: white;
+}

@@ -5,3 +5,13 @@ es:
   stats: 'Estadísticas'
   introduction: 'Introducción'
   all_rights_reserved: 'Todos los Derechos Reservados'
+  name: 'Nombre'
+  email: 'Email'
+  subject: 'Asunto'
+  message: 'Mensaje'
+  more_information: 'Más Información'
+  i_want_more_info: 'Quiero recibir más información de futuras acciones'
+
+  mailman:
+    send_activation_code:
+      subject: 'Activa tu mensaje para los parlamentarios europeos'

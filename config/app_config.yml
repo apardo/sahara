@@ -9,7 +9,7 @@ test:
   contact_email: deal@sindominio.net
 
 production:
-  domain: sahara.org
+  domain: sahara.dyndns-ip.com
   project_name: Sahara
   contact_email: deal@sindominio.net
 
