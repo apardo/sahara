@@ -1,10 +1,10 @@
 <div id="sahara_form">
   <form action="http://sahara.dyndns-ip.com/message/send" method="post">
     <fieldset>
-      <legend>Rellena el formulario</legend>
+      <legend>Fill the form</legend>
       <div id="message_form_fields">
         <div class="field">
-          <label for="message_Nombre">Nombre</label>:<br />
+          <label for="message_Name">Name</label>:<br />
           <input id="message_name" name="message[name]" size="30" type="text" />
         </div>
         <div class="field">
@@ -12,7 +12,7 @@
           <input id="message_email" name="message[email]" size="30" type="text" />
         </div>
         <div class="field">
-          <label for="message_Tu País">Tu país</label>:<br />
+          <label for="message_Your Country">Your country</label>:<br />
           <select id="message_lang" name="message[lang]">
             <option value=""></option>
             <option value="at">Österreich</option>
@@ -45,19 +45,19 @@
           </select>
         </div>
         <div class="field">
-          <label for="message_Asunto">Asunto</label>:<br />
+          <label for="message_Subject">Subject</label>:<br />
           <input id="message_subject" name="message[subject]" size="50" type="text" />
         </div>
         <div class="field">
-          <label for="message_Mensaje">Mensaje</label>:<br />
+          <label for="message_Message">Message</label>:<br />
           <textarea cols="80" id="message_body" name="message[body]" rows="20"></textarea>
         </div>
         <div class="field">
-          <label for="message_Más Información">Más información</label>:<br />
-          <input name="message[friend]" type="hidden" value="0" /><input id="message_friend" name="message[friend]" type="checkbox" value="1" /> Quiero recibir más información de futuras acciones
+          <label for="message_More Information">More information</label>:<br />
+          <input name="message[friend]" type="hidden" value="0" /><input id="message_friend" name="message[friend]" type="checkbox" value="1" /> I want more info about next actions
         </div>
         <div class="actions">
-          <input id="message_submit" name="commit" type="submit" value="Enviar mensaje" />
+          <input id="message_submit" name="commit" type="submit" value="Send Message" />
         </div>
       </div>
     </fieldset>
