@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  subject: MyString
+  body: MyText
+  remote_ip: MyString
+  sent: false
+  lang: MyString
+  activation_code: MyString
+  active: false
+  friend: false
+
+two:
+  name: MyString
+  email: MyString
+  subject: MyString
+  body: MyText
+  remote_ip: MyString
+  sent: false
+  lang: MyString
+  activation_code: MyString
+  active: false
+  friend: false

@@ -4,3 +4,4 @@ log/*.log
 tmp/**/*
 config/unicorn_dev.rb
 *.swp
+db/schema.rb
