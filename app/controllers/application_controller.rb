@@ -13,10 +13,12 @@ class ApplicationController < ActionController::Base
       if cookies[:locale]
         I18n.locale = cookies[:locale]
       else
-        if extract_locale_from_accept_language_header == 'en'
-          I18n.locale = 'en'
+        locale = extract_locale_from_accept_language_header
+        langs = ['en', 'es', 'fr']
+        if langs.include?(locale)
+          I18n.locale = locale
         else
-          I18n.locale = 'es'
+          I18n.locale = 'en'
         end
         cookies[:locale] = { :value => I18n.locale, :expires => 10.years.from_now }
       end
