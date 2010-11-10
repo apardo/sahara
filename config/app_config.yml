@@ -1,0 +1,15 @@
+development:
+  domain: sahara.org
+  project_name: Sahara
+  contact_email: deal@sindominio.net
+
+test:
+  domain: sahara.org
+  project_name: Sahara
+  contact_email: deal@sindominio.net
+
+production:
+  domain: sahara.org
+  project_name: Sahara
+  contact_email: deal@sindominio.net
+
