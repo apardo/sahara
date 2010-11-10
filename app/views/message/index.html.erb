@@ -2,6 +2,8 @@
 
 <h2><%= link_to t(:send_message), message_path %></h2>
 
+<%= render :partial => 'message_intro' %>
+
 <%= render :partial => 'flash_messages' %>
 
 <%= render :partial => 'form' %>
