@@ -1,14 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Sahara</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%= @title %> - <%= APP_CONFIG[:project_name] %></title>
+    <%= stylesheet_link_tag 'style', :media => 'all' %>
+    <%= csrf_meta_tag %>
+    <link rel="shortcut icon" type="image/x-png" href="/favicon.ico" />
+  </head>
+  <body>
+    <div id="wrapper">
+    <div id="header">
+      <h1 class="right"><%= APP_CONFIG[:project_name] %></h1>
+      <h1><a href="/"><%= APP_CONFIG[:project_name] %></a></h1>
+    </div><!-- header -->
+    <ul id="nav">
+      <li><a href="/"><%= t(:home) %></a></li>
+      <li><a href="#"><%= t(:send_message) %></a></li>
+      <li><a href="#"><%= t(:integration) %></a></li>
+      <li><a href="#"><%= t(:stats) %></a></li>
+    </ul>
+    <div class="clear" />
+    <div id="content">
+      <%= yield %>
+    </div><!-- content -->
+    <div id="footer">
+      <p>Developed by Luther Blisset.<br />
+      &copy; <%= t(:all_rights_reserved) %>.</p>
+    </div>
+  </div>
+  </body>
 </html>
+
