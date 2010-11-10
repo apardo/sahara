@@ -1,15 +1,15 @@
 development:
   domain: sahara.org
-  project_name: Sahara
+  project_name: SaharaRights
   contact_email: deal@sindominio.net
 
 test:
   domain: sahara.org
-  project_name: Sahara
+  project_name: SaharaRights
   contact_email: deal@sindominio.net
 
 production:
   domain: sahararights.net
-  project_name: Sahara
+  project_name: SaharaRights
   contact_email: deal@sindominio.net
 
