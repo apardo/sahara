@@ -1,0 +1,43 @@
+<div id="message_form">
+  <%= form_for @message, :url => { :action => 'send_message' } do |f| %>
+    <fieldset>
+      <div id="message_form_fields">
+        <div class="field">
+          <%= f.label t(:name) %>:<br />
+          <%= f.text_field :name %>
+          <% if @message.errors[:name] %>
+            <span class="error_message"><%= @message.errors[:name].to_sentence %></span>
+          <% end %>
+        </div>
+        <div class="field">
+          <%= f.label t(:email) %>:<br />
+          <%= f.text_field :email %>
+          <% if @message.errors[:email] %>
+            <span class="error_message"><%= @message.errors[:email].to_sentence %></span>
+          <% end %>
+        </div>
+        <div class="field">
+          <%= f.label t(:subject) %>:<br />
+          <%= f.text_field :subject %>
+          <% if @message.errors[:subject] %>
+            <span class="error_message"><%= @message.errors[:subject].to_sentence %></span>
+          <% end %>
+        </div>
+        <div class="field">
+          <%= f.label t(:message) %>:<br />
+          <%= f.text_area :body, :cols => 80 %>
+          <% if @message.errors[:body] %>
+            <span class="error_message"><%= @message.errors[:body].to_sentence %></span>
+          <% end %>
+        </div>
+        <div class="field">
+          <%= f.label t(:more_information) %>:<br />
+          <%= f.check_box :friend %> <%= t(:i_want_more_info) %>
+        </div>
+        <div class="actions">
+          <%= f.submit t(:send_message) %>
+        </div>
+      </div><!-- message_form_fields -->
+    </fieldset>
+  <% end %>
+</div><!-- message_form -->
