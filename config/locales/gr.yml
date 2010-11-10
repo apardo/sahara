@@ -36,5 +36,5 @@ gr:
             body:
               blank: "όχι κενό"
             email:
-              invalid: "άκυρο"
+              invalid: "Άκυρο"
                 
