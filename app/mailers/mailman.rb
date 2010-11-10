@@ -10,4 +10,9 @@ class Mailman < ActionMailer::Base
     @activation_code = message.activation_code
     mail :to => message.email
   end
+
+  def send_mail(message, recipients)
+    @body = message.body
+    mail :from => message.email, :to => recipients, :subject => messsage.subject
+  end
 end

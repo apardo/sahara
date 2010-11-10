@@ -10,11 +10,11 @@ namespace :admin do
     file = File.open(data)
     # Leer línea a línea
     file.each_line {|line|
-      contact = Contact.create(:email => line.strip, :lang => lang)
-      if contact.save
-        puts "Contacto #{contact.email} introducido en la DB"
+      recipient = Recipient.create(:email => line.strip, :lang => lang)
+      if recipient.save
+        puts "Receptor #{recipient.email} introducido en la DB"
       else
-        puts contact.errors['email']
+        puts recipient.errors[:email].to_sentence
       end
     }
   end
