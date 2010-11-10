@@ -21,3 +21,18 @@ gr:
   your_country: 'Your Country'
   licensed_under: 'Licensed under'
   git_repo: 'Git Repository'
+
+  activerecord:
+    errors:
+      models:
+        message:
+          attributes:
+            name:
+              blank: "όχι κενό"
+            lang:
+              blank: "όχι κενό"
+            subject:
+              blank: "όχι κενό"
+            body:
+              blank: "όχι κενό"
+                
