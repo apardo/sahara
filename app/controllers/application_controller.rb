@@ -17,8 +17,6 @@ class ApplicationController < ActionController::Base
         langs = ['en', 'es', 'fr']
         if langs.include?(locale)
           I18n.locale = locale
-        else
-          I18n.locale = 'en'
         end
         cookies[:locale] = { :value => I18n.locale, :expires => 10.years.from_now }
       end
