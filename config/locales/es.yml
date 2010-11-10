@@ -18,6 +18,7 @@ es:
   integrate_the_form_in_your_website: 'Integra el formulario en tu sitio web'
   fill_the_form: 'Rellena el formulario'
   developed_by: 'Desarrollado por'
+  your_country: 'Tu País'
 
   mailman:
     send_activation_code:

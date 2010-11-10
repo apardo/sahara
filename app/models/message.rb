@@ -6,8 +6,9 @@ class Message < ActiveRecord::Base
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
   validates_presence_of :subject
   validates_presence_of :body
+  validates_presence_of :lang
 
-  attr_accessible :name, :email, :subject, :body, :friend
+  attr_accessible :name, :email, :subject, :body, :friend, :lang
   
   before_create :make_activation_code
 

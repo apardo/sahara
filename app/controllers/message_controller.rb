@@ -22,7 +22,6 @@ class MessageController < ApplicationController
 
     @message = Message.new(params[:message])
     @message.remote_ip = request.remote_ip
-    @message.lang = I18n.locale
 
     if @message.save
       Mailman.send_activation_code(@message).deliver

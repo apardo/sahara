@@ -18,6 +18,13 @@
           <% end %>
         </div>
         <div class="field">
+          <%= f.label t(:your_country) %>:<br />
+          <%= f.select :lang, COUNTRIES, :include_blank => true %>
+          <% if @message.errors[:lang] %>
+            <span class="error_message"><%= @message.errors[:lang].to_sentence %></span>
+          <% end %>
+        </div>
+        <div class="field">
           <%= f.label t(:subject) %>:<br />
           <%= f.text_field :subject, :size => 50 %>
           <% if @message.errors[:subject] %>
