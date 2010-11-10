@@ -26,6 +26,8 @@ fr:
   fill_the_form: "Remplissez le formulaire"
   developed_by: "Développé par"
   your_country: 'Votre Pays'
+  licensed_under: 'Sous License'
+  git_repo: 'Référentiel Git'
 
   date:
     formats:

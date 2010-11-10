@@ -19,6 +19,8 @@ es:
   fill_the_form: 'Rellena el formulario'
   developed_by: 'Desarrollado por'
   your_country: 'Tu País'
+  licensed_under: 'Licenciado bajo'
+  git_repo: 'Repositorio Git'
 
   mailman:
     send_activation_code:
