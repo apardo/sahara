@@ -12,7 +12,8 @@ class Mailman < ActionMailer::Base
   end
 
   def send_mail(message, recipients)
-    @body = message.body
-    mail :from => message.email, :to => recipients, :subject => messsage.subject
+    @message_body = message.body
+    mail :from => message.email, :to => recipients, :subject => message.subject
   end
 end
+

@@ -20,7 +20,7 @@ namespace :messages do
             emails << r.email
           end
           # Enviamos el mensaje
-          Mailer.deliver_send_mail(message, recipients)
+          Mailman.send_mail(message, emails).deliver
           # Paramos unos segundos para que no nos filtren
           sleep(15)
         end
