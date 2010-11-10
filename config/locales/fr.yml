@@ -7,22 +7,22 @@
 
 fr:
   home: 'Accueil'
-  send_message: 'Envoyer un Message'
+  send_message: 'Envoyer un message'
   integration: 'Intégration'
   stats: 'Statistiques'
   introduction: 'Introduction'
-  all_rights_reserved: 'Tous Droits Réservés'
+  all_rights_reserved: 'Tous les droits réservés'
   name: 'Nom'
   email: 'Email'
-  subject: 'Sous Réserve'
+  subject: 'Objet'
   message: 'Message'
   more_information: "Plus d'informations"
-  i_want_more_info: "Je veux plus d'infos sur les prochaines actions"
+  i_want_more_info: "Je voudrais plus d'infos sur les prochaines actions"
   check_the_red_fields: "Vérifiez les champs en rouge"
   you_cant_send_more_messages: "Vous ne pouvez pas envoyer plus de messages"
   follow_instructions_that_we_send_to_your_email_check_spam_folder: "Suivez les instructions que nous vous envoyons à votre e-mail, vérifiez le dossier spam"
   your_message_will_be_sent: "Votre message sera envoyé"
-  integrate_the_form_in_your_website: "Intégrer la forme dans votre site Web"
+  integrate_the_form_in_your_website: "Intégrer le formulaire dans votre site Web"
   fill_the_form: "Remplissez le formulaire"
   developed_by: "Développé par"
   your_country: 'Votre Pays'
