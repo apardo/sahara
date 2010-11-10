@@ -1,0 +1,65 @@
+<div id="sahara_form">
+  <form action="http://sahara.dyndns-ip.com/message/send" method="post">
+    <fieldset>
+      <legend>Omple el formulari</legend>
+      <div id="message_form_fields">
+        <div class="field">
+          <label for="message_Nombre">Nom</label>:<br />
+          <input id="message_name" name="message[name]" size="30" type="text" />
+        </div>
+        <div class="field">
+          <label for="message_Email">Email</label>:<br />
+          <input id="message_email" name="message[email]" size="30" type="text" />
+        </div>
+        <div class="field">
+          <label for="message_Tu País">El teu País</label>:<br />
+          <select id="message_lang" name="message[lang]">
+            <option value=""></option>
+            <option value="at">Österreich</option>
+            <option value="be">Belgique/België</option>
+            <option value="bg">Bulgaria</option>
+            <option value="cy">Κύπρος</option>
+            <option value="cz">Česká Republika</option>
+            <option value="de">Deutschland</option>
+            <option value="dk">Danmark</option>
+            <option value="ee">Eesti</option>
+            <option value="es">España</option>
+            <option value="fi">Suomi</option>
+            <option value="fr">France</option>
+            <option value="gb">United Kingdom</option>
+            <option value="gr">Ελλάδα</option>
+            <option value="hu">Magyarország</option>
+            <option value="ie">Éire/Ireland</option>
+            <option value="it">Italia</option>
+            <option value="lt">Lietuva</option>
+            <option value="lu">Luxembourg</option>
+            <option value="lv">Latvija</option>
+            <option value="mt">Malta</option>
+            <option value="nl">Nederland</option>
+            <option value="pl">Polska</option>
+            <option value="pt">Portugal</option>
+            <option value="ro">România</option>
+            <option value="se">Sverige</option>
+            <option value="si">Slovenija</option>
+            <option value="sk">Slovensko</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message_Asunto">Assumpte</label>:<br />
+          <input id="message_subject" name="message[subject]" size="50" type="text" />
+        </div>
+        <div class="field">
+          <label for="message_Mensaje">Missatge</label>:<br />
+          <textarea cols="80" id="message_body" name="message[body]" rows="20"></textarea>
+        </div>
+        <div class="field">
+          <label for="message_Más Información">Més informació</label>:<br />
+          <input name="message[friend]" type="hidden" value="0" /><input id="message_friend" name="message[friend]" type="checkbox" value="1" /> Vull rebre més informació de futures accions
+        </div>
+        <div class="actions">
+          <input id="message_submit" name="commit" type="submit" value="Enviar missatge" />
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
