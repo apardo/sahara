@@ -1,3 +1,4 @@
+#coding: utf-8
 # Hash con lista de países europeos
 
 COUNTRIES = { "Österreich" => "at",
