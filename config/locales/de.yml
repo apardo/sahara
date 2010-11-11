@@ -1,0 +1,23 @@
+de:
+  home: 'Home'
+  send_message: 'Nachricht senden'
+  Integration: 'Integration'
+  Statistics: "Statistik"
+  introduction: "Einleitung"
+  all_rights_reserved: "Alle Rechte vorbehaltend"
+  name: 'Name'
+  email: 'E-Mail'
+  Subject: "Betreff"
+  message: 'Nachricht'
+  more_information: "Weitere Informationen"
+  i_want_more_info: "Ich will mehr Infos Ÿber die nŠchsten Aktionen"
+  check_the_red_fields: "PrŸfen Sie die roten Felder "
+  you_cant_send_more_messages: "Sie kšnnen keine Nachrichten mehr schicken"
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: "Folgen Sie den Anweisungen, die wir Ihnen an Ihre E-Mail geschickt haben, Spam-Ordner ŸberprŸfen"
+  your_message_will_be_sent: "Ihre Nachricht wird gesendet"
+  integrate_the_form_in_your_website: "Integrieren Sie das Formular in Ihrer Website"
+  fill_the_form: "FŸllen Sie das Formular aus"
+  developed_by: "Entwickelt von "
+  your_country: "Ihr Land"
+  licensed_under: "Lizenz unter'
+  git_repo: "Git Repository "
