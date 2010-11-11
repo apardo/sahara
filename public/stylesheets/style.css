@@ -293,7 +293,7 @@ p.user {
   margin-bottom: 10px;
 }
 
-.field input[type='text'], .field textarea {
+.field input[type='text'], .field textarea, .field select {
   margin-top: 4px;
   padding:5px;
 }
