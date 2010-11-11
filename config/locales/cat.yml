@@ -14,7 +14,7 @@ cat:
   check_the_red_fields: 'Verifica els camps en vermell'
   you_cant_send_more_messages: 'No pots enviar més missatges'
   follow_instructions_that_we_send_to_your_email_check_spam_folder: "Segueix la instruccions que us hem enviat per correu, revisa la carpeta d'spam"
-  your_message_will_be_sent: 'El teu missatge serà enviat'
+  your_message_will_be_sent: 'El teu missatge ha estat enviat'
   integrate_the_form_in_your_website: 'Integra el formulari al teu lloc web'
   fill_the_form: 'Omple el formulari'
   developed_by: 'Desenvolupat per'
