@@ -1,5 +1,5 @@
 <div id="sahara_form">
-  <form action="http://sahara.dyndns-ip.com/message/send" method="post">
+  <form action="http://sahararights.net/message/send" method="post">
     <fieldset>
       <legend>Συμπληρώστε την φόρμα</legend>
       <div id="message_form_fields">
