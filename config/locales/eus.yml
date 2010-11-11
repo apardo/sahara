@@ -1,0 +1,27 @@
+eus:
+  home: 'Hasiera'
+  send_message: 'Mezua bidali'
+  integration: 'Integratu'
+  stats: 'Estatistika'
+  introduction: 'Sarrera'
+  all_rights_reserved: 'Eskubide guztiak gordeak'
+  name: 'Izena'
+  email: 'E-mail'
+  subject: 'Gaia'
+  message: 'Mezua'
+  more_information: 'Informazio gehiago'
+  i_want_more_info: 'Datozen ekintzen informazioa jaso nahi dut'
+  check_the_red_fields: 'Gorriz daudenak egiaztatu'
+  you_cant_send_more_messages: 'Ezin duzu mezu gehiagorik bidali'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Postaz bidalitako argibideak jarraitu, Spam fitxategia arakatu'
+  your_message_will_be_sent: 'Zure mezua bidali behar dugu'
+  integrate_the_form_in_your_website: 'Integratu formularioa zure webgunean'
+  fill_the_form: 'Formularioa bete'
+  developed_by: 'Garatzailea::'
+  your_country: 'Zure Herria'
+  licensed_under: 'Honen baimenarekin'
+  git_repo: 'Git gordailua'
+
+  mailman:
+    send_activation_code:
+      subject: 'Confirma tu mensaje para los miembros del Parlamento Europeo'
