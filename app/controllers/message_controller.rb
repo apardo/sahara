@@ -42,11 +42,14 @@ class MessageController < ApplicationController
       message.activation_code = nil
       message.save
       flash[:notice] = t(:your_message_will_be_sent)
-      redirect_to message_path
+      redirect_to thanks_path
     else
       flash[:error] = t(:we_did_not_find_the_message_with_that_activation_code)
       redirect_to message_path
     end
+  end
+
+  def thanks
   end
 end
 

@@ -3,6 +3,7 @@ Sahara::Application.routes.draw do
 
   match "message" => "message#index"
   match "message/send" => "message#send_message"
+  match "thanks" => "message#thanks"
   match "activate/:activation_code" => "message#activate"
   match "integrate" => "pages#integrate"
   match "stats" => "pages#stats"
