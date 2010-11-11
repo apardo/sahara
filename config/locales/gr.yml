@@ -21,6 +21,10 @@ gr:
   your_country: 'Η χώρα σας'
   licensed_under: 'Υπό την άδεια'
   git_repo: 'Git Repository'
+  
+  mailman:
+    send_activation_code:
+      subject: 'Confirma tu mensaje para los miembros del Parlamento Europeo'
 
   activerecord:
     errors:

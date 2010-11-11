@@ -293,7 +293,7 @@ p.user {
   margin-bottom: 10px;
 }
 
-.field input[type='text'], .field textarea {
+.field input[type='text'], .field textarea, .field select {
   margin-top: 4px;
   padding:5px;
 }
@@ -315,7 +315,7 @@ p.user {
   color: white;
 }
 
-.field_with_errors input, .field_with_errors textarea {
+.field_with_errors input, .field_with_errors textarea, .field_with_errors select {
   border: 2px solid red;
 }
 

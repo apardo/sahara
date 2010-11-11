@@ -21,3 +21,7 @@ cat:
   your_country: 'El teu País'
   licensed_under: 'Llicenciat sota'
   git_repo: 'Repositori Git'
+  
+  mailman:
+    send_activation_code:
+      subject: 'Confirma tu mensaje para los miembros del Parlamento Europeo'
