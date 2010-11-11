@@ -24,7 +24,7 @@ gr:
   
   mailman:
     send_activation_code:
-      subject: 'Agree to send the message to the members of the European Parliament'
+      subject: 'Επιβεβαιώστε το μήνυμά σας για τα μέλη του Ευρωπαικού κοινοβουλίου'
 
   activerecord:
     errors:
