@@ -22,3 +22,7 @@ of check spammappe'
   your_country: 'Dit land'
   licensed_under: 'Licenseret under'
   git_repo: 'Git Repository'
+  
+  mailman:
+    send_activation_code:
+      subject: 'Confirma tu mensaje para los miembros del Parlamento Europeo'

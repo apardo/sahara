@@ -28,6 +28,10 @@ fr:
   your_country: 'Votre Pays'
   licensed_under: 'Sous License'
   git_repo: 'Référentiel Git'
+  
+  mailman:
+    send_activation_code:
+      subject: 'Confirma tu mensaje para los miembros del Parlamento Europeo'
 
   date:
     formats:
