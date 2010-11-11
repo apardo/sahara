@@ -24,4 +24,4 @@ de:
   
   mailman:
     send_activation_code:
-      subject: 'Bestätigen Sie Ihre Nachricht an die Mitglieder des Europäischen Parlaments'
+      subject: "Bestätigen Sie Ihre Nachricht an die Mitglieder des Europäischen Parlaments"
