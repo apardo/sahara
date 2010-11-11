@@ -43,6 +43,14 @@ body {
   margin-right: -40px;
 }
 
+.nav_right {
+  float:right;
+}
+
+.nav_right li {
+  list-style:none;
+}
+
 #header li {
   margin: 0 5px;
 }
