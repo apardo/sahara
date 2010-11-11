@@ -14,7 +14,7 @@ t:
   check_the_red_fields: 'Controllare i campi in rosso'
   you_cant_send_more_messages: 'Lei non puo inviare più messaggi'
   follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Seguire le istruzioni che vi invieremo alla tua email, controlla la cartella spam'
-  your_message_will_be_sent: 'Il tuo messaggio sarà inviato'
+  your_message_will_be_sent: 'Il tuo messaggio é stato inviato'
   integrate_the_form_in_your_website: 'Integrare il modulo nel tuo sito web'
   fill_the_form: 'Compila il modulo'
   developed_by: 'Sviluppato da'
