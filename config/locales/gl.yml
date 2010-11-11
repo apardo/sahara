@@ -1,0 +1,27 @@
+gl:
+  home: 'Inicio'
+  send_message: 'Enviar mensaxe'
+  integration: 'Integración'
+  stats: 'Estadísticas'
+  introduction: 'Introducción'
+  all_rights_reserved: 'Todos os dereitos reservados'
+  name: 'Nome'
+  email: 'E-mail'
+  subject: 'Asunto'
+  message: 'Mensaxe'
+  more_information: 'Máis información'
+  i_want_more_info: 'Quero recibir máis información de futuras accións'
+  check_the_red_fields: 'Verifica os campos en vermello'
+  you_cant_send_more_messages: 'Non podes enviar máis mensaxes'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Segue as instruccións que te fixemos chegar por correo, revisa a carpeta do spam'
+  your_message_will_be_sent: 'A tua mensaxe vai ser enviada'
+  integrate_the_form_in_your_website: 'Integra o formulario no teu sitio web'
+  fill_the_form: 'Enche o formulario'
+  developed_by: 'Desenrrolado por'
+  your_country: 'O teu País'
+  licensed_under: 'Licenciado baixo'
+  git_repo: 'Repositorio Git’
+
+  mailman:
+    send_activation_code:
+      subject: 'Confirma a tua mensaxe para os membros do Parlamento Europeo'
