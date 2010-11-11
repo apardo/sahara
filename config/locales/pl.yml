@@ -1,0 +1,45 @@
+pl:
+  home: 'Strona Główna'
+  send_message: 'Wyślij Wiadomość'
+  integration: 'Pomóż'
+  stats: 'Statystyki'
+  introduction: 'Wprowadzenie'
+  all_rights_reserved: 'Wszystkie Prawa Zastrzeżone'
+  name: 'Imię i nazwisko'
+  email: 'E-mail'
+  subject: 'Temat'
+  message: 'Wiadomość'
+  more_information: 'Więcej informacji'
+  i_want_more_info: 'Chcę otrzymywać informacje o przyszłych kampaniach'
+  check_the_red_fields: 'Sprawdź pola zaznaczone na czerwono'
+  you_cant_send_more_messages: 'Możesz wysłać więcej wiadomości'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Sprawdź oją pocztę i zastosuj się do zamieszczonych tam instrukcji. Sprawdź, czy adomość nie została oznaczona jako spam'
+  your_message_will_be_sent: 'Twoja wiadomość zostanie wysłana'
+  integrate_the_form_in_your_website: 'Zamieść formularz na swojej stronie ternetowej'
+  fill_the_form: 'Wypełnij formularz'
+  developed_by: 'Stworzone przez'
+  your_country: 'Twój kraj'
+  licensed_under: 'Na licencji'
+  git_repo: 'Repozytorium Git'
+  
+  mailman:
+    send_activation_code:
+      subject: 'Zezwól na wysłanie wiadomości do członków Parlamentu Europejskiego'
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
