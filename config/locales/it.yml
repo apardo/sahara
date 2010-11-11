@@ -1,0 +1,27 @@
+t:
+  home: 'Home'
+  send_message: 'Invia messaggio'
+  integration: 'Integrazione'
+  stats: 'Statistiche'
+  introduction: 'Introduzione'
+  all_rights_reserved: 'Tutti i diritti riservati'
+  name: 'Nome'
+  email: 'E-mail'
+  subject: 'Oggetto'
+  message: 'Messaggio'
+  more_information: 'Ulteriori informazioni'
+  i_want_more_info: 'Vorrei più informazioni sulle prossime azioni'
+  check_the_red_fields: 'Controllare i campi in rosso'
+  you_cant_send_more_messages: 'Lei non puo inviare più messaggi'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Seguire le istruzioni che vi invieremo alla tua email, controlla la cartella spam'
+  your_message_will_be_sent: 'Il tuo messaggio sarà inviato'
+  integrate_the_form_in_your_website: 'Integrare il modulo nel tuo sito web'
+  fill_the_form: 'Compila il modulo'
+  developed_by: 'Sviluppato da'
+  your_country: 'Il tuo Paese'
+  licensed_under: 'Distribuito sotto licenza'
+  git_repo: 'Repository git'
+  
+  mailman:
+    send_activation_code:
+      subject: "Dai il consenso per inviare l'email a i Parlamentari Europei"
