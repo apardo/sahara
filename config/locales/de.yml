@@ -19,5 +19,9 @@ de:
   fill_the_form: "FŸllen Sie das Formular aus"
   developed_by: "Entwickelt von "
   your_country: "Ihr Land"
-  licensed_under: "Lizenz unter'
+  licensed_under: "Lizenz unter"
   git_repo: "Git Repository "
+  
+  mailman:
+    send_activation_code:
+      subject: 'Confirm your message for the members of the Europen Parliament'
