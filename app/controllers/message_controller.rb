@@ -1,5 +1,7 @@
 class MessageController < ApplicationController
 
+  protect_from_forgery :except => :send_message
+
   def index
     @message = Message.new
   end
