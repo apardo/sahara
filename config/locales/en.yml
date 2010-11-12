@@ -13,7 +13,7 @@ en:
   i_want_more_info: 'I want more info about next actions'
   check_the_red_fields: 'Check the red fields'
   you_cant_send_more_messages: 'You can not send more messages'
-  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Follow the instructions that we send you to your email, check spam folder'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Your message has been saved.  In order to actually send it, you have to follow the instructions that we have send to you by email (if you do not see them, check your spam folder).  Please notice that your message will not be sent until you confirm it!!!'
   your_message_will_be_sent: 'Your message has been sent'
   integrate_the_form_in_your_website: 'Integrate the form in your website'
   fill_the_form: 'Fill the form'
@@ -24,4 +24,4 @@ en:
   
   mailman:
     send_activation_code:
-      subject: 'Agree to send the message to the members of the European Parliament'
+      subject: 'Confirm to send your message to members of the European Parliament'
