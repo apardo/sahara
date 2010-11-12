@@ -1,4 +1,4 @@
-t:
+it:
   home: 'Home'
   send_message: 'Invia messaggio'
   integration: 'Integrazione'
