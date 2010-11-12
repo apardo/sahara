@@ -20,7 +20,7 @@ fr:
   i_want_more_info: "Je voudrais plus d'infos sur les prochaines actions"
   check_the_red_fields: "Vérifiez les champs en rouge"
   you_cant_send_more_messages: "Vous ne pouvez pas envoyer plus de messages"
-  follow_instructions_that_we_send_to_your_email_check_spam_folder: "Suivez les instructions que nous vous envoyons à votre e-mail, vérifiez le dossier spam"
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: "Votre message est en train d'être confirmé. Confirmez que vous voulez l'envoyer suivant les instructions qu'on vous a envoyé via mail (si vous ne le trouvez pas, regarder dans votres boîte spam). Votre message ne sera pas envoyé sans confirmation de votre part!!!"
   your_message_will_be_sent: "Ton message a été envoyé"
   integrate_the_form_in_your_website: "Intégrer le formulaire dans votre site Web"
   fill_the_form: "Remplissez le formulaire"
