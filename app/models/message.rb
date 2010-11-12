@@ -16,6 +16,12 @@ class Message < ActiveRecord::Base
     all(:conditions => ["active =  ?", true]).count
   end
 
+  def self.count_messages
+    data = connection.execute("SELECT SUM(cantidad) FROM (SELECT recipients.lang,COUNT(name) AS cantidad FROM messages, recipients WHERE messages.lang=recipients.lang AND active=1 GROUP BY lang) AS temp")
+    total = data.to_a[0]
+
+    return total.first.to_i
+  end
 
   protected
 
