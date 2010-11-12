@@ -1,8 +1,8 @@
 de:
   home: 'Home'
   send_message: 'Nachricht senden'
-  Integration: 'Integration'
-  Statistics: 'Statistik'
+  integration: 'Integration'
+  statistics: 'Statistik'
   introduction: 'Einleitung'
   all_rights_reserved: 'Alle Rechte vorbehaltend'
   name: 'Name'
