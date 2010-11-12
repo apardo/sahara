@@ -24,4 +24,4 @@ eus:
 
   mailman:
     send_activation_code:
-      subject: 'Confirma tu mensaje para los miembros del Parlamento Europeo'
+      subject: 'Berretsi ezazu Europar Legebiltzarrerako zeure mezua'
