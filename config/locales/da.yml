@@ -13,9 +13,9 @@ da:
   i_want_more_info: 'Jeg ønsker mere info om næste tiltag'
   check_the_red_fields: 'Tjek de røde felter'
   you_cant_send_more_messages: 'Du kan ikke sende flere beskeder'
-  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Følg vejledningen, vi sender dig til din e-mail,
-of check spammappe'
-  your_message_will_be_sent: 'Din besked er blevet sendt'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Din besked er blevet gemt. For at faktisk sende den, skal du følge vejledninge, vi har sendt
+til dig via e-mail (hvis du ikke kan se dem, tjekke din spam-mappe). Bemærk venligst, at din besked ikke vil være sendt, indtil du bekræfte det!'
+  your_message_will_be_sent: 'Din besked er blevet sendt. Mange tak for din deltagelse.'
   integrate_the_form_in_your_website: 'Integrere formularen i dit website'
   fill_the_form: 'Udfyld formularen'
   developed_by: 'Udviklet af'

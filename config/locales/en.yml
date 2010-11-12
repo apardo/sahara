@@ -14,7 +14,7 @@ en:
   check_the_red_fields: 'Check the red fields'
   you_cant_send_more_messages: 'You can not send more messages'
   follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Your message has been saved.  In order to actually send it, you have to follow the instructions that we have send to you by email (if you do not see them, check your spam folder).  Please notice that your message will not be sent until you confirm it!!!'
-  your_message_will_be_sent: 'Your message has been sent'
+  your_message_will_be_sent: 'Your message has been sent. Thanks for your participation.'
   integrate_the_form_in_your_website: 'Integrate the form in your website'
   fill_the_form: 'Fill the form'
   developed_by: 'Developed by'
