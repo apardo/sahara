@@ -13,7 +13,7 @@ class Message < ActiveRecord::Base
   before_create :make_activation_code
 
   def self.count_senders
-    all(:conditions => ["sent =  ?", true]).count
+    all(:conditions => ["active =  ?", true]).count
   end
 
 
