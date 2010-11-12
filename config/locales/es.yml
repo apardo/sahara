@@ -13,7 +13,7 @@ es:
   i_want_more_info: 'Quiero recibir más información de futuras acciones'
   check_the_red_fields: 'Verifica los campos en rojo'
   you_cant_send_more_messages: 'No puedes enviar más mensajes'
-  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Tu mensaje ha sido guardado. Confirma que deseas enviarlo siguiendo las instrucciones que te hemos enviado por correo electrónico (si no lo ves, revisa la carpeta de spam).  ¡¡¡Tu mensaje no será enviado hasta que no lo confirmes!!!'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Tu mensaje está pendiente de confirmación. Confirma que deseas enviarlo siguiendo las instrucciones que te hemos enviado por correo electrónico (si no lo ves, revisa la carpeta de spam).  ¡¡¡Tu mensaje no será enviado hasta que no lo confirmes!!!'
   your_message_will_be_sent: 'Tu mensaje ya ha sido enviado. Gracias por tu participación.'
   integrate_the_form_in_your_website: 'Integra el formulario en tu sitio web'
   fill_the_form: 'Rellena el formulario'
