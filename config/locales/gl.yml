@@ -20,7 +20,7 @@ gl:
   developed_by: 'Desenrrolado por'
   your_country: 'O teu País'
   licensed_under: 'Licenciado baixo'
-  git_repo: 'Repositorio Git’
+  git_repo: 'Repositorio Git'
 
   mailman:
     send_activation_code:

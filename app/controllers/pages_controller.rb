@@ -4,5 +4,6 @@ class PagesController < ApplicationController
   end
 
   def stats
+    @senders = Message.count_senders
   end
 end
