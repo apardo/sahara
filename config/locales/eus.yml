@@ -13,7 +13,9 @@ eus:
   i_want_more_info: 'Datozen ekintzen informazioa jaso nahi dut'
   check_the_red_fields: 'Gorriz daudenak egiaztatu'
   you_cant_send_more_messages: 'Ezin duzu mezu gehiagorik bidali'
-  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Postaz bidalitako argibideak jarraitu, Spam fitxategia arakatu'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Zure mezua berresteko zain dago.  
+Mezua bidali nahi duzula egiaztatu, posta elektronikoz bidali dizkizugun argibideak jarraituz (ez baduzu gure mezua ikusten spam fitxategian arakatu).  
+ZUK BERRETSI ARTE MEZUA BIDALI GABE GERATUKO DA!!!'
   your_message_will_be_sent: 'Zure mezua bidali behar dugu'
   integrate_the_form_in_your_website: 'Integratu formularioa zure webgunean'
   fill_the_form: 'Formularioa bete'
