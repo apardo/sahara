@@ -23,6 +23,7 @@ ZUK BERRETSI ARTE MEZUA BIDALI GABE GERATUKO DA!!!'
   your_country: 'Zure Herria'
   licensed_under: 'Honen baimenarekin'
   git_repo: 'Git gordailua'
+  we_did_not_find_the_message_with_that_activation_code: "No encontramos el mensaje con ese código de confirmación. ¿Quizá el mensaje ya fué confirmado?."
 
   mailman:
     send_activation_code:

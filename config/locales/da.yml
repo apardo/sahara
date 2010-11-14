@@ -21,6 +21,7 @@ da:
   your_country: 'Dit land'
   licensed_under: 'Licenseret under'
   git_repo: 'Git Repository'
+  we_did_not_find_the_message_with_that_activation_code: "No message found matching that confirmation code. Maybe the message was already confirmed?"
   
   mailman:
     send_activation_code:
