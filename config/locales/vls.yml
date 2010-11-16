@@ -1,0 +1,28 @@
+vls:
+  home: 'Begin'
+  send_message: 'Bericht verzenden'
+  integration: 'Integratie'
+  stats: 'Statistiek'
+  introduction: 'Dringende maatregelen'
+  all_rights_reserved: 'Alle rechten voorbehouden'
+  name: 'Naam'
+  email: 'E-mail'
+  subject: 'Betreft'
+  message: 'Bericht'
+  more_information: 'Meer informatie'
+  i_want_more_info: 'Ik wil meer informatie ontvangen betreffende toekomstige acties.'
+  check_the_red_fields: 'Controleer de rode velden'
+  you_cant_send_more_messages: 'Je kunt niet meer berichten versturen'
+  follow_instructions_that_we_send_to_your_email_check_spam_folder: 'Volg de instructies die je werden toegestuurd; check je spam folder'
+  your_message_will_be_sent: 'Je bericht zal worden verstuurd'
+  integrate_the_form_in_your_website: 'Integreer het formulier in je website'
+  fill_the_form: 'Vul het formulier in'
+  developed_by: 'Ontworpen door'
+  your_country: 'Je land'
+  licensed_under: 'In licentie'
+  git_repo: 'Git opslag'
+  we_did_not_find_the_message_with_that_activation_code: "Er is geen bericht gevonden met dezelfde bevestigings-code. Misschien is het bericht al bevestigd?"
+  
+  mailman:
+    send_activation_code:
+      subject: 'Bevestig je bericht om het te versturen naar het Europarlement'
