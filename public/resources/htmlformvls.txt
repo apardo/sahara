@@ -8,11 +8,11 @@
           <input id="message_name" name="message[name]" size="30" type="text" />
         </div>
         <div class="field">
-          <label for="message_Email">Email</label>:<br />
+          <label for="message_Email">E-mail</label>:<br />
           <input id="message_email" name="message[email]" size="30" type="text" />
         </div>
         <div class="field">
-          <label for="message_Your Country">Your country</label>:<br />
+          <label for="message_Your Country">Je land</label>:<br />
           <select id="message_lang" name="message[lang]">
             <option value=""></option>
             <option value="at">Österreich</option>
@@ -45,7 +45,7 @@
           </select>
         </div>
         <div class="field">
-          <label for="message_Subject">Onderwerp</label>:<br />
+          <label for="message_Subject">Betreft</label>:<br />
           <input id="message_subject" name="message[subject]" size="50" type="text" />
         </div>
         <div class="field">
@@ -54,10 +54,10 @@
         </div>
         <div class="field">
           <label for="message_More Information">Meer informatie</label>:<br />
-          <input name="message[friend]" type="hidden" value="0" /><input id="message_friend" name="message[friend]" type="checkbox" value="1" /> Ik wil meer informatie over andere acties
+          <input name="message[friend]" type="hidden" value="0" /><input id="message_friend" name="message[friend]" type="checkbox" value="1" /> Ik wil meer informatie ontvangen betreffende toekomstige acties.
         </div>
         <div class="actions">
-          <input id="message_submit" name="commit" type="submit" value="Verstuur bericht" />
+          <input id="message_submit" name="commit" type="submit" value="Bericht verzenden" />
         </div>
       </div>
     </fieldset>
